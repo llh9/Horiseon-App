@@ -48,6 +48,9 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
+a:hover{
+    background-color: #2589bd;
+}
 
 p {
     font-size: 16px;
