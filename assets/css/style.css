@@ -76,6 +76,7 @@ p {
 }
 
 .content {
+    height: fit-content;
     width: 75%;
     display: inline-block;
     margin-left: 20px;
@@ -193,6 +194,19 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+/*added three media queries to adjust for section text-foating*/
+    @media screen and (max-width: 913px) {
+    .search-engine-optimization  {
+        height: 500px;
+    }}
+    @media screen and (max-width: 925px) {
+    .online-reputation-management  {
+        height: 600px;
+    }}
+    @media screen and (max-width: 913px) {
+    .social-media-marketing {
+        height: 500px;
+    }}
 
 .footer {
     padding: 30px;
