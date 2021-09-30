@@ -50,6 +50,7 @@ a {
 }
 a:hover{
     background-color: #2589bd;
+    box-shadow: 10px;
 }
 
 p {
@@ -213,6 +214,11 @@ p {
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+}
+
+.sig {
+    color: red;
+    text-shadow:black ;
 }
 
 .footer h2 {
